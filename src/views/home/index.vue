@@ -59,7 +59,10 @@
       <span><span class="l">信息提醒：</span>您的共享账户xxxxx已经失效，为保证功能稳定请尽快重新共享! <span class="l">五分钟后权限调整</span></span>
     </div>
     </el-header>
-    <el-main>Main</el-main>
+
+    <el-main>
+      <router-view></router-view>
+    </el-main>
   </el-container>
 </el-container>
 
